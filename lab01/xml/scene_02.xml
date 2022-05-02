@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Transition
+        app:constraintSetStart="@id/start"
+        app:constraintSetEnd="@id/end"
+        app:autoTransition="animateToEnd"
+        app:duration="4000">
+        <KeyFrameSet>
+            <KeyAttribute
+                android:rotation="360"
+                app:framePosition="50"
+                app:motionTarget="@id/square" />
+            <!--         Sube a la primera curva para ir a Y   -->
+            <KeyPosition
+                app:keyPositionType="pathRelative"
+                app:percentX="0"
+                app:percentY="0"
+                app:framePosition="3"
+                app:pathMotionArc="startVertical"
+                app:motionTarget="@id/square"/>
+            <KeyPosition
+                app:keyPositionType="pathRelative"
+                app:percentY="0.03"
+                app:percentX="-0.022"
+                app:framePosition="6"
+                app:pathMotionArc="startVertical"
+                app:motionTarget="@id/square"/>
+            <KeyPosition
+                app:keyPositionType="pathRelative"
+                app:percentY="0.063"
+                app:percentX="0"
+                app:framePosition="9"
+                app:pathMotionArc="startVertical"
+                app:motionTarget="@id/square"/>
+            <KeyPosition
+                app:keyPositionType="pathRelative"
+                app:percentY="0.054"
+                app:percentX="0.065"
+                app:framePosition="12"
+                app:pathMotionArc="startVertical"
+                app:motionTarget="@id/square"/>
+            <KeyPosition
+                app:keyPositionType="pathRelative"
+                app:percentY="0"
+                app:percentX="0.126"
+                app:framePosition="15"
+                app:pathMotionArc="startVertical"
+                app:motionTarget="@id/square"/>
+            <KeyPosition
+                app:keyPositionType="pathRelative"
+                app:percentY="-0.13"
+                app:percentX="0.098"
+                app:framePosition="18"
+                app:pathMotionArc="startVertical"
+                app:motionTarget="@id/square"/>
+            <KeyPosition
+                app:keyPositionType="pathRelative"
+                app:percentY="-0.188"
+                app:percentX="0"
+                app:framePosition="21"
+                app:pathMotionArc="startVertical"
+                app:motionTarget="@id/square"/>
+            <KeyPosition
+                app:keyPositionType="pathRelative"
+                app:percentY="-0.131"
+                app:percentX="-0.185"
+                app:framePosition="24"
+                app:pathMotionArc="startVertical"
+                app:motionTarget="@id/square"/>
+            <KeyPosition
+                app:keyPositionType="pathRelative"
+                app:percentY="0"
+                app:percentX="-0.251"
+                app:framePosition="27"
+                app:pathMotionArc="startVertical"
+                app:motionTarget="@id/square"/>
+            <KeyPosition
+                app:keyPositionType="pathRelative"
+                app:percentX="-0.2"
+                app:percentY="0.2"
+                app:framePosition="30"
+                app:pathMotionArc="startVertical"
+                app:motionTarget="@id/square"/>
+            <KeyPosition
+                app:keyPositionType="pathRelative"
+                app:percentX="0"
+                app:percentY="0.314"
+                app:framePosition="33"
+                app:pathMotionArc="startVertical"
+                app:motionTarget="@id/square"/>
+            <KeyPosition
+                app:keyPositionType="pathRelative"
+                app:percentX="0.235"
+                app:percentY="0.251"
+                app:framePosition="36"
+                app:pathMotionArc="startVertical"
+                app:motionTarget="@id/square"/>
+            <KeyPosition
+                app:keyPositionType="pathRelative"
+                app:percentX="0.377"
+                app:percentY="0"
+                app:framePosition="39"
+                app:pathMotionArc="startVertical"
+                app:motionTarget="@id/square"/>
+            <KeyPosition
+                app:keyPositionType="pathRelative"
+                app:percentX="0.299"
+                app:percentY="-0.276"
+                app:framePosition="42"
+                app:pathMotionArc="startVertical"
+                app:motionTarget="@id/square"/>
+            <KeyPosition
+                app:keyPositionType="pathRelative"
+                app:percentX="0"
+                app:percentY="-0.44"
+                app:framePosition="45"
+                app:pathMotionArc="startVertical"
+                app:motionTarget="@id/square"/>
+            <KeyPosition
+                app:keyPositionType="pathRelative"
+                app:percentX="-0.316"
+                app:percentY="-0.347"
+                app:framePosition="48"
+                app:pathMotionArc="startVertical"
+                app:motionTarget="@id/square"/>
+            <KeyPosition
+                app:keyPositionType="pathRelative"
+                app:percentX="-0.503"
+                app:percentY="0"
+                app:framePosition="51"
+                app:pathMotionArc="startVertical"
+                app:motionTarget="@id/square"/>
+            <KeyPosition
+                app:keyPositionType="pathRelative"
+                app:percentX="-0.396"
+                app:percentY="0.356"
+                app:framePosition="54"
+                app:pathMotionArc="startVertical"
+                app:motionTarget="@id/square"/>
+            <KeyPosition
+                app:keyPositionType="pathRelative"
+                app:percentX="0"
+                app:percentY="0.565"
+                app:framePosition="57"
+                app:pathMotionArc="startVertical"
+                app:motionTarget="@id/square"/>
+            <KeyPosition
+                app:keyPositionType="pathRelative"
+                app:percentX="0.371"
+                app:percentY="0.473"
+                app:framePosition="60"
+                app:pathMotionArc="startVertical"
+                app:motionTarget="@id/square"/>
+            <KeyPosition
+                app:keyPositionType="pathRelative"
+                app:percentX="0.628"
+                app:percentY="0"
+                app:framePosition="63"
+                app:pathMotionArc="startVertical"
+                app:motionTarget="@id/square"/>
+            <KeyPosition
+                app:keyPositionType="pathRelative"
+                app:percentX="0.498"
+                app:percentY="-0.428"
+                app:framePosition="66"
+                app:pathMotionArc="startVertical"
+                app:motionTarget="@id/square"/>
+            <KeyPosition
+                app:keyPositionType="pathRelative"
+                app:percentX="0"
+                app:percentY="-0.691"
+                app:framePosition="69"
+                app:pathMotionArc="startVertical"
+                app:motionTarget="@id/square"/>
+            <KeyPosition
+                app:keyPositionType="pathRelative"
+                app:percentX="-0.494"
+                app:percentY="-0.526"
+                app:framePosition="72"
+                app:pathMotionArc="startVertical"
+                app:motionTarget="@id/square"/>
+            <KeyPosition
+                app:keyPositionType="pathRelative"
+                app:percentX="-0.754"
+                app:percentY="0"
+                app:framePosition="75"
+                app:pathMotionArc="startVertical"
+                app:motionTarget="@id/square"/>
+            <KeyPosition
+                app:keyPositionType="pathRelative"
+                app:percentX="-0.567"
+                app:percentY="0.542"
+                app:framePosition="78"
+                app:pathMotionArc="startVertical"
+                app:motionTarget="@id/square"/>
+            <KeyPosition
+                app:keyPositionType="pathRelative"
+                app:percentX="0"
+                app:percentY="0.817"
+                app:framePosition="81"
+                app:pathMotionArc="startVertical"
+                app:motionTarget="@id/square"/>
+            <KeyPosition
+                app:keyPositionType="pathRelative"
+                app:percentX="0.647"
+                app:percentY="0.553"
+                app:framePosition="84"
+                app:pathMotionArc="startVertical"
+                app:motionTarget="@id/square"/>
+            <KeyPosition
+                app:keyPositionType="pathRelative"
+                app:percentX="0.88"
+                app:percentY="0"
+                app:framePosition="87"
+                app:pathMotionArc="startVertical"
+                app:motionTarget="@id/square"/>
+
+
+            <!--         Baja a X   -->
+
+
+
+
+        </KeyFrameSet>
+
+    </Transition>
+
+    <ConstraintSet android:id="@+id/start">
+        <Constraint android:id="@id/square"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            app:layout_editor_absoluteY="333dp"
+            app:layout_editor_absoluteX="143dp">
+
+        </Constraint>
+    </ConstraintSet>
+    <ConstraintSet android:id="@+id/end">
+        <Constraint android:id="@id/square"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_editor_absoluteY="333dp"
+            app:layout_editor_absoluteX="239dp">
+
+        </Constraint>
+    </ConstraintSet>
+
+
+
+</MotionScene>
